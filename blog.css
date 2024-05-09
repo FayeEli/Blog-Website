@@ -1,47 +1,30 @@
-body {
-    font-family: Arial, sans-serif;
+*{
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
-
-.blog-post {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 0 20px;
-}
-
-.post-title {
-    text-align: center;
-    color: #333;
-}
-
-figure {
-    margin: 20px 0;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
+ul,li {
     display: block;
-    margin: 0 auto;
+    list-style: none;
 }
 
-figcaption {
-    text-align: center;
-    font-style: italic;
-    color: #666;
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px, 60px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
 }
 
-footer {
-    text-align: center;
-    margin-top: 20px;
-    background-color: #f4f4f4;
-    padding: 10px;
+.header.logo a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
 }
