@@ -27,6 +27,11 @@ ul,li {
     text-decoration: none;
     color: #000;
     font-weight: 700;
+    transition: .2s ease;
+}
+
+.header .logp a.active{
+    color: #fff;
 }
 
 .header .burger {
@@ -44,6 +49,7 @@ ul,li {
     background: #000;
     display: block;
     transform: translate(-50%, -50%);
+    transition: .2s ease;
 }
 
 .header .burger span::before,
@@ -54,6 +60,7 @@ ul,li {
     content: '';
     position: absolute;
     display: block;
+    transition: .2s ease;
 }
 
 .header .burger span::before {
@@ -64,6 +71,37 @@ ul,li {
     bottom: -8px;
     width: 15px;
     margin-left: 15px;
+}
+
+.header .burger.active span{
+    background: transparent;
+}
+
+.header .burger.active span::before{
+    background: #fff;
+    transform: rotate(45deg);
+    top:0;
+}
+
+.header .burger.active span::after{
+    background:#fff;
+    transform: rotate(-45deg);
+    margin-left:0;
+    width: 30px;
+    bottom: 0;
+}
+.menu{
+    width: 100%;
+    height: 100vh;
+    background: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-200px);
+    transition: .2s ease;
 }
 
 .page {
@@ -194,3 +232,28 @@ ul,li {
    color: 600;
     text-decoration: none;
 }
+
+.page-right .text-wrapp{
+    padding: 50px 230px;
+}
+
+.page-right .text p{
+    color: #555;
+    line-height: 1.7;
+}
+
+.page-right .slidder-wrapp {
+    padding-left: 230px;
+}
+
+.page-right .slidder-item{
+    width: ;
+}
+
+.page-right .slidder-item img{
+    display: block;
+    width: 350px;
+    height: 238px;
+    object-fit: cover;
+}
+
