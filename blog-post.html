@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Post</title>
-    <link rel="stylesheet" href="blog-post.css">
+    <link rel="stylesheet" href="css/blog-post.css">
 </head>
 <body>
     <header>
+        <a href="index.html" class="back-arrow"></a>
+            <i class="fa fa-arrow-left"></i> <!-- Font Awesome arrow icon -->
+        </a>
         <h1>How to create the best UI wit Figma</h1>
     </header>
-
     <section class="author-info">
         <div class="author">
             <img src="images/about.jpg" alt="Author Avatar" id="author-avatar">
@@ -25,6 +27,10 @@
             <button onclick="shareOnTwitter()">Share on Twitter</button>
             <button onclick="shareOnFacebook()">Share on Facebook</button>
             <button onclick="shareOnLinkedIn()">Share on LinkedIn</button>
+            <a href="index.html">
+                <button>Go To Homepage</button>
+              </a>
+              
         </div>
     </section>
 

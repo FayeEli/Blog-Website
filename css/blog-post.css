@@ -10,6 +10,18 @@ header {
     text-align: center;
     padding: 20px;
 }
+.back-arrow {
+    text-decoration: none;
+    color: #dcdf34; /* Choose an appropriate color */
+    font-size: 1.5rem; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.back-arrow:hover {
+    color: #007bff; /* Color on hover */
+}
 
 .author-info {
     display: flex;
