@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,400&display=swap');
 @import url('css/blog-post.css');
 @import url('css/style.css');
-@import url('footer.css');
+
 *{
     font-family: 'Poppins', sans-serif;
     margin: 0;
